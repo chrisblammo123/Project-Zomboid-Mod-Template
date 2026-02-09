@@ -3,7 +3,7 @@ Template repository for project zomboid lua mods.
 
 For more information about the `mod.info` file, go to https://pzwiki.net/wiki/Mod.info.
 
-@FWolfe created a modding guide, which can be found at https://github.com/FWolfe/Zomboid-Modding-Guide/blob/master/structure/README.md.
+[FWolfe](https://github.com/FWolfe) created a modding guide, which can be found at https://github.com/FWolfe/Zomboid-Modding-Guide/blob/master/structure/README.md.
 
 ---
 
