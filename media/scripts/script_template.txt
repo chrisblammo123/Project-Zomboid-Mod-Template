@@ -1,0 +1,9 @@
+/* The main wrapper object or block, called a module. Can have a custom name or be called 'Base', which is the vanilla game's module. */
+module MyModule {
+	/* Used to import other modules, often 'Base' or other custom modules, sometimes internal to the mod itself. */
+	/* Allows accessing the elements of those modules without referencing the module prefix (Nails instead of Base.Nails). */
+	/* Important: It is considered bad practice to import the base (or other) modules instead of using their prefixes. */
+	imports {
+		Base
+	}
+}
