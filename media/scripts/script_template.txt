@@ -6,4 +6,82 @@ module MyModule {
 	imports {
 		Base
 	}
+	/* craftRecipe */
+	/* Used to define a crafting recipe */
+	/* IMPORTANT: The parent module cannot be custom or the recipe will not work in multiplayer (as of 42.13.0), use Base for now. */
+	craftRecipe id {
+		/* This section uses information from: */
+		/* https://github.com/SirDoggyJvla/pz-scripts-data/blob/main/data/blocks/craftRecipe.yaml */
+
+		
+		/* parameters */
+
+		/* tags - REQUIRED */
+		/* Conditional tags for the crafting recipe, must have at least one, i.e. 'AnySurfaceCraft'. */
+		/* Use the format 'tag1' for one tag or 'tag1;tag2' for multiple tags */
+		tags = id,
+		/* inputs block - REQUIRED */
+		/* The block of items used in the recipe. */
+		/* See: inputs block below */
+		inputs {
+		}
+		/* allowbatchcraft */
+		/* TODO: Description */
+		allowbatchcraft = value,
+		/* autolearnall */
+		/* TODO: Description */
+		autolearnall = value,
+		/* autolearnany */
+		/* TODO: Description */
+		autolearnany = value,
+		/* category */
+		/* TODO: Description */
+		/* The category that the recipe is listed under in the crafting menu. */
+		category = value,
+		/* icon */
+		/* TODO: Description */
+		icon = value,
+		/* itemmappers */
+		/* TODO: Description */
+		itemmappers = value,
+		/* metarecipe */
+		/* TODO: Description */
+		metarecipe = value,
+		/* need to be learn */
+		/* If the craft recipe needs to be learned before it can be used. */
+		needtobelearn = value,
+		/* oncreate */
+		/* TODO: Description */
+		oncreate = value,
+		/* ontest */
+		/* TODO: Description */
+		ontest = value,
+		/* overlaystyle */
+		/* TODO: Description */
+		overlaystyle = value,
+		/* recipegroup */
+		/* TODO: Description */
+		recipegroup = value,
+		/* researchany */
+		/* TODO: Description */
+		researchany = value,
+		/* researchskilllevel */
+		/* TODO: Description */
+		researchskilllevel = value,
+		/* skillrequired */
+		/* The skill required to use the recipe. */
+		skillrequired = value,
+		/* time */
+		/* The time it takes to use the craft recipe. */
+		time = value,
+		/* timedaction */
+		/* The timed action script that is triggered when crafting (typically sounds and animations). */
+		timedaction = value,
+		/* tooltip */
+		/* TODO: Description */
+		tooltip = value,
+		/* xpaward */
+		/* The amount of experience awarded when using the craft recipe. */
+		xpaward = value,
+	}
 }
