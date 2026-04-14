@@ -27,7 +27,7 @@ module MyModule {
 		}
 		/* allowbatchcraft */
 		/* TODO: Description */
-		allowbatchcraft = value,
+		/*allowbatchcraft = boolean,*/
 		/* autolearnall */
 		/* TODO: Description */
 		autolearnall = value,
